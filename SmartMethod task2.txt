@@ -1,0 +1,26 @@
+1-open the arduino and go to preferences
+
+2-put the url of the additional Software in the " additional board manager URL" field
+
+3-instal the board in the arduino IDE
+
+4-Go to Tools ----> board----> board Manager and then search for ESP32
+
+5-select the latest version and then it will download all the needed settings.
+
+or 
+
+Install IDE for the Arduino 
+Run IDE
+Go to IDE bar, choose File, then preferences
+Use "https://dl.espressif.com/dl/package_esp32_index.json" to put the package link to the esp32, then press on OK button
+Go to tools, choose Arduino panel, then panel manager
+Press on the installation process when the type screen appears
+Go to tools, then board, and then boards manage.
+Again go to tools, then Arduino panel, then ESP32 Arduino.
+Connect ESP32 to the computer using USB.
+Go to tools, then ESP32 Arduino, then WEMOS D1 MINI ESP32 controller.
+Go to tools, then port COM3, then COM3.
+Turn on lighting by clicking on the file, then examples, then basic, then blink. 
+Press an arrow tick that appears in the address bar on the left side of the upload process.
+The blue light will start to point.
